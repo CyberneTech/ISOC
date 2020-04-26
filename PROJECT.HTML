@@ -1,64 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
         <title>Hi!buddy ISOC project 2020</title>
        <style>
-           h{
-position: absolute;
-width: 368px;
-height: 84px;
-left: 122px;
-top: 161px;
-
-font-family: Fredericka the Great;
-font-style: normal;
-font-weight: normal;
-font-size: 70px;
-line-height: 86px;
-
-color: #000000;         }
-P{
-position: absolute;
-width: 520px;
-height: 55px;
-left: 118px;
-top: 240px;
-
-font-family: Noticia Text;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
-color: #000000;
-
-}
-button{
-    
-font-family: Noticia Text;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
-
-color: #000000;
-}
-
+           h2.login
+           { font-family: Noticia Text;font-size: 28px;line-height: 38px;position:absolute;left:789px;top:187px;}
+           label.login
+           {  position:absolute;left:789px;font-family: Noticia Text;font-size: 17px;line-height: 23px;}
+           button.login
+           {font-family: Noticia Text;font-size: 17px;line-height: 23px;color: white;background-color: #57A5FA; border-color:rgba(0,0,0,0);position: absolute;width: 98px;height: 34px;left: 1139px;top: 430px; border-radius:10px;}
+           input.login
+           { position:absolute;left:789px; width: 447px;height: 38px;opacity: 0.5;border: 1px solid #000000;box-sizing: border-box;border-radius: 12px; background-color: rgba(0,0,0,0);}
        </style>
     </head>
-    
-    <body bgcolor=" #FFFBF5">
-        <h>HI!BUDDY</h>
-        <p>AN ALL PURPOSE DESTINATION TO CONNECT WITH THE PEOPLE ACROSS THE GLOBE</p>
-    <img style="position: absolute;
-        width: 520px;height: 592px;
-        left: 901px;top: 0px;"  
-        src="C:\Users\SHRUTI\Documents\ISOC\Subtract.svg" >
-    <img style="position: absolute;
-         left: 48.14%;right: 7.56%;
-         top: 23.08%;bottom: 3.05%;" 
-         src="C:\Users\SHRUTI\Documents\ISOC\illustration 1.svg">
-         <button style="position: absolute;width: 100px; height: 31px;left: 1187px;top: 22px;" onclick="">SIGN IN</button>
-         <button style="position: absolute;width: 73px;height: 31px;left: 1044px;top: 22px;" onclick="" >LOGIN</button>
+
+    <body bgcolor=" #EDF1F2" ">
+         <form>
+             <h2 class="login"><b>Welcome Back,</b></h2>
+             <img src="C:\Users\SHRUTI\Documents\ISOC\bg.svg" style=" position:absolute; left: 0px; bottom: 0px;">
+             <img src="C:\Users\SHRUTI\Documents\ISOC\HI!BUDDY.svg" style="position: absolute;left: 58.1%;top: 13.73%;"">
+             <img src="C:\Users\SHRUTI\Documents\ISOC\or.svg" style="position: absolute;width: 447px;height: 27px;left: 789px;top: 492.28px;" >
+             <label for"uid" class="login" style="top:253px;">User Id/ E-mail:</label> <br> <input type="text" id="uid" name="uid" class="login" style="top:280px;"><br>
+             <label for"pwd" class="login"style="top:332px">Password:</label> <br> <input type="password" id="pwd" name="pwd" class="login" style="top:359px"><br>
+             <link><br>
+         </form>
+         <button class="login">Login</button>
+         
     </body>
 </html>
