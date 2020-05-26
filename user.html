@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <style>
+          *
+          {margin:0px;
+          padding:0px;}
+          body{background-color: #D8DFE0;}
+          
+
+          nav{  background: #EDF1F2;
+                height:35px;
+                padding:10px;
+                position: relative;                 
+              }
+              #grad
+              {background-image: linear-gradient(to right,#FF0C38,#1FBBFF);
+                height:4px;
+                margin-bottom: 11px;
+              }
+              #logo
+                {  
+                   margin:auto;
+                   position: absolute;
+                   left:40%;
+                }
+              #search
+              {    position:absolute;right:2%;top:30%;}
+              #not
+              { position: absolute; right:7%;top:25%;}
+
+               .prof
+               {
+                   width: 100%;
+                   padding:0px;
+                   margin-bottom: 11px;
+                   height:100%;
+                   background-color: #EDF1F2;
+                   padding-top: 2.5%;
+               }
+               #back
+               {    width: 94%;
+                    position:relative;
+                    height:335px;
+                    background-color: #c4c4c4;
+                    left:3%;
+                    border-radius: 10px 10px 0px 0px;
+               }
+               #profile
+               {
+                   width:200px;
+                   height: 200px;
+                   border-radius: 100px;
+                   border:5px solid  #ffffff;
+                   position:absolute;
+                   background-color:#c4c4c4;
+                   left:8%;
+                   top:45%;
+                   overflow: hidden;
+               }
+               #name
+               { background-color: #ffffff;
+                 width:94%;
+                 height:87px;
+                 position:absolute;
+                 left:3%;
+                 margin-bottom:11px;
+                 border-radius: 0px 0px 10px 10px;
+                }
+                #Name
+                {colour:#000000;
+                 font-size: 26px;
+                }
+                #UserId
+                {colour:#787577;
+                 font-size: 18px;}
+                 #Request
+                 {
+                  background-image: linear-gradient(to right,#FF0C38,#1FBBFF);
+                  color: #ffffff;
+                  border-radius: 10px;
+                  height: 42px;
+                  font-size: 18px;
+                  max-width: 100px;
+                  position: absolute;
+                  right:8%;
+                  top:50% auto;
+                  padding:11px;
+                 }
+                 #options
+                 {
+                  background-image: linear-gradient(to right,#FF0C38,#1FBBFF);
+                  color: #ffffff;
+                  border-radius: 21px;
+                  height: 42px;
+                  width: 42px;
+                  position: absolute;
+                  right:3%;
+                 }
+                 .prf .prof
+                 {display:inline;}
+                              
+               .lower
+               { position:absolute;
+                display:inline-block;
+                left:3%;
+              }
+               .feed
+               {
+                
+              }
+               #posts
+               {   background-color:#EDF1F2;
+                   width:69%;
+                   height:100%;
+                }
+               #friends
+               {
+                  background-color:#EDF1F2;
+                  width:29%;
+
+               }
+      </style>
+    </head>
+
+    <body>
+        <nav>
+            <img id="option" src="C:\Users\SHRUTI\Documents\ISOC\svg\dehaze-24px 1.svg" alt="nav_home">
+            <img id="logo" src="C:\Users\SHRUTI\Documents\ISOC\svg\HI!BUDDY (nav).svg" alt="HI!BUDDY" style="text-align: center;">
+            <img id="not" src="C:\Users\SHRUTI\Documents\ISOC\svg\notification_important-24px 1.svg" alt="notifiation">
+            <img id="search" src="C:\Users\SHRUTI\Documents\ISOC\svg\Vector.svg" alt="search">
+        </nav>
+<div id="grad"></div>
+
+<div class="prof">
+    <div id="back"></div>
+    <div id="name">
+      <p id="Name">Name</p><br><p id="userid">@UserId</p>
+        <button class="op" id="Request">Request</button>
+        <button class="op" id="options"><span class="glyphicon glyphicon-option-vertical"></span></button>
+    </div>
+    <div id="profile"></div>
+    <div class="lower">
+        <div class="feed" id="posts">this is feed</div>
+        <div class="feed" id="friends">these are friends</div>
+    </div>
+    
+</div>
+    </body>
+</html>

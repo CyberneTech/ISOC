@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+          *
+          {margin:0px;
+          padding:0px;}
+          body{background-color: #D8DFE0;}
+          
+
+          nav{  background: #EDF1F2;
+                height:35px;
+                padding:10px;
+                position: relative;                 
+              }
+              .grad
+              {background-image: linear-gradient(to right,#FF0C38,#1FBBFF);
+                height:4px;
+                margin-bottom: 10px;
+              }
+              
+              
+              
+          #menu{background: #EDF1F2;
+                 width: 20%;
+                 height: 100%;
+                 padding: 0px;
+                 border-radius: 0px 10px 10px 0px;
+                 position: relative;
+                }
+           .index
+          {   display: block;
+              block-size: 35px;
+              margin:0px;
+              padding:0px;
+              text-align: 10%;
+              
+        }  #options
+           {
+             margin-top: 50%;
+           }
+             #home
+             {padding-left:8%;}
+             #friends
+             {padding-left:8%;}
+             #messages
+             {padding-left:8%;}
+             #blocked
+             {padding-left:8%;}   
+            .index:hover
+            {background-color: rgb(251, 251, 251);
+             border-left:5px solid #1FBBFF;}
+
+             #profile
+             { margin-top: 35px;
+               text-align: center;}
+              #profile_pic
+              {width:120px;
+              height: 120px;
+               border-radius: 60px;
+               border:6px solid white;}
+              #userId
+            { font-size:25px;
+              margin-top: 12px;
+              margin-bottom:0px; }
+              #name
+              {color:darkgrey;
+               font-size: 17px;
+               margin-top:0px;
+              }
+
+
+             #main
+             {background: #EDF1F2;
+              width:79%;
+              overflow-y:auto;
+              height:100%;
+              position:absolute;
+              right:0px;
+              border-radius: 10px 0px 0px 10px;}
+                
+            .content
+            {display:inline-block;}    
+      </style>
+    </head>
+    
+    <body>
+        <nav>
+            <img id="option" src="C:\Users\SHRUTI\Documents\ISOC\svg\dehaze-24px 1.svg" alt="nav_home">
+            <img id="logo" src="C:\Users\SHRUTI\Documents\ISOC\svg\HI!BUDDY (nav).svg" alt="HI!BUDDY" style="text-align: center;">
+            <img id="not" src="C:\Users\SHRUTI\Documents\ISOC\svg\notification_important-24px 1.svg" alt="notifiation">
+            <img id="search" src="C:\Users\SHRUTI\Documents\ISOC\svg\Vector.svg" alt="search">
+        </nav>
+        <div class="grad"></div>
+
+        <div class="content" id="menu">
+            <div id="profile" >
+                <img id="profile_pic" src="">
+                <p id="userId">User ID</p><br>
+                <p id="name">Name</p>
+            </div>
+            <div id="options" >
+            <div id="home" class="index" onclick="select()"><h4>Home</h4></div>
+            <div id="friends" class="index" onclick="select()"><h4>Friends</h4></div>
+            <div id="messages" class="index" onclick="select()"><h4>Messages</h4></div>
+            <div id="blocked" class="index" onclick="select()"><h4>Blocked Users</h4></div>
+            </div>
+        </div>
+
+        <div class="content" id="main">
+            
+        </div>
+    </body>
+</hmtl>
